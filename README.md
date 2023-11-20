@@ -60,7 +60,7 @@ python3 path/to/script path/to/trimmed/reads path/to/intersected/reads path/to/A
 
 ![scatter_plot](https://github.com/CPalmer3200/bsb_test_repo/assets/145576128/69416c35-a84c-418c-9fe3-002142c47093)
 
-Figure 1: *Normalised double strand break count of Samples 1-16. Samples 1, 2, 4, 5, 6, 7 and 8 are likely to be untreated while samples 9-16 are probably treated samples. The group that sample 3 belongs to is inconclusive*
+Figure 1: *Normalised double strand break count of Samples 1-16. Samples 1, 2, 4, 5, 6, 7 and 8 are likely to be untreated while samples 9-16 are probably treated samples. The group that sample 3 belongs to is inconclusive.*
 <br>
 
 <br>
