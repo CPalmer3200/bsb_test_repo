@@ -62,7 +62,8 @@ Figure 1: *Normalised break count of Samples 1-16*
 <br>
 Table 1: *The output of the results_analysis.py script. This script calculates the total breaks, AsiSI cut site percentage and normalised break count for each sample*
 <br>
-![image](https://github.com/CPalmer3200/bsb_test_repo/assets/145576128/7e95f6c9-cbd6-42bd-a314-ac10ca4162f9)
+![image](https://github.com/CPalmer3200/bsb_test_repo/assets/145576128/94fc0c1b-2f75-4768-9232-986ab6f4ea23)
+
 <br>
 
 ### 2.1 Control and treated samples
