@@ -77,7 +77,7 @@ The results from the Python data analysis strongly indicate that samples 1, 2, 4
 
 ### 2.2 The identity of sample 3 is uncertain
 
-I am uncertain of sample 3 as a single DSB was found at an AsiSI cut site - however, this DSB may have already been present in the sample and may not have been induced by treatment with 4OHT.
+I am uncertain of sample 3 as a single DSB was found at an AsiSI cut site - however, this DSB may have already been present in the sample and might not have been induced by treatment with 4OHT.
 <br>
 
 ### 2.3 Samples 9 and 15 had the greatest percentage of possible AsiSI cut sites
