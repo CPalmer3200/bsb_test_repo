@@ -16,6 +16,9 @@ The Nextflow pipeline is comprised of three scripts designed to be run in the or
 ```
 nextflow run index_pipeline.nf
 ```
+
+> [!NOTE]  
+> This script uses relative file paths so no internal modification is needed
 <br>
 
 - mapping_pipeline.nf: This script is designed to map the sample.fastq.gz files to the indexed chromosome with bwa mem and convert these into .bam files with           samtools. The resulting .bam files will then be converted to .bed files using bedtools and the reads will be trimmed to include just the break sites by               accessing the trim_reads.py script in this repo. Please install and activate BWA, samtools, Python3 and bedtools before running this script with:
@@ -49,6 +52,7 @@ python3 path/to/script path/to/trimmed/reads path/to/intersected/reads path/to/A
 ```
 
 > [!NOTE]  
+> This script uses relative file paths
 > The Python analysis script requires 4 arguments in the specified order and will raise a SystemExit exception if >4 or <4 arguments are given
 <br>
 
