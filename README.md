@@ -52,7 +52,7 @@ python3 path/to/script path/to/trimmed/reads path/to/intersected/reads path/to/A
 ```
 
 > [!NOTE]  
-> This script uses relative file paths
+> This script uses relative file paths.
 > The Python analysis script requires 4 arguments in the specified order and will raise a SystemExit exception if >4 or <4 arguments are given
 <br>
 
