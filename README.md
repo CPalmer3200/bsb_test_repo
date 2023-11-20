@@ -2,3 +2,16 @@
 
 # Results repository for BSB coding test
 
+## 1. Repository architecture
+
+This repository contains Nextflow and Python scripts designed to process DNA double strand breaks (DSBs) reads. These scripts are designed to be run on a Linux-based/WSL system through bash scripts. 
+
+### 1.1 Nextflow pipeline
+
+- index_pipeline.nf: This script retrieves the chromosome.fasta file stored in the data directory and indexes it using Burrows-Wheeler Aligner (BWA). Please install    and activate BWA in the current environment before running this script with:
+
+```
+nextflow run index_pipeline.nf
+```
+
+   
