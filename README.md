@@ -2,8 +2,6 @@
 
 # Results repository for the BSB coding test (CPalmer3200)
 
-[TOC]
-
 ## 1. Repository architecture
 
 This repository contains Nextflow and Python scripts designed to process and analyse samples containing DNA double-strand breaks (DSBs). These scripts are designed to be run on a Linux-based/WSL system through bash scripts. 
