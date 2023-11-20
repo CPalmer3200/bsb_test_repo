@@ -65,7 +65,6 @@ Table 1: *The output of the results_analysis.py script. This script calculates t
 <br>
 ![image](https://github.com/CPalmer3200/bsb_test_repo/assets/145576128/94fc0c1b-2f75-4768-9232-986ab6f4ea23)
 
-<br>
 
 ### 2.1 Control and treated samples
 
