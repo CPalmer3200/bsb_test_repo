@@ -59,9 +59,8 @@ python3 path/to/script path/to/trimmed/reads path/to/intersected/reads path/to/A
 Figure 1: *Normalised break count of Samples 1-16*
 <br>
 
-<br>
 Table 1: *The output of the results_analysis.py script. This script calculates the total breaks, AsiSI cut site percentage and normalised break count for each sample*
-
+<br>
 ![image](https://github.com/CPalmer3200/bsb_test_repo/assets/145576128/94fc0c1b-2f75-4768-9232-986ab6f4ea23)
 
 <br>
