@@ -51,3 +51,9 @@ python3 path/to/script path/to/trimmed/reads path/to/intersected/reads path/to/A
 > [!NOTE]  
 > The Python analysis script requires 4 arguments in the specified order and will raise a SystemExit exception if >4 or <4 arguments are given
 <br>
+
+## 2. Interpretation of results
+
+![scatter_plot](https://github.com/CPalmer3200/bsb_test_repo/assets/145576128/69416c35-a84c-418c-9fe3-002142c47093)
+
+Figure 1: *Normalised break count of Samples 1-16*
