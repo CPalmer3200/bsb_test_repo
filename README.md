@@ -86,7 +86,7 @@ Of the 71 possible AsiSI break sites, samples 9 and 15 had the greatest percenta
 
 ## 3. Mapping of questions to answers
 
-- This repository was created in response to the Broken String Biosciences Bioinformatician pre-interview coding test.
+*This repository was created in response to the Broken String Biosciences Bioinformatician pre-interview coding test:*
 
 - Step 1 is covered by section 1.1 of this repository
 
