@@ -57,6 +57,11 @@ python3 path/to/script path/to/trimmed/reads path/to/intersected/reads path/to/A
 ![scatter_plot](https://github.com/CPalmer3200/bsb_test_repo/assets/145576128/69416c35-a84c-418c-9fe3-002142c47093)
 
 Figure 1: *Normalised break count of Samples 1-16*
+<br>
+
+Table 1: *The output of the results_analysis.py script. This script calculates the total breaks, AsiSI cut site percentage and normalised break count for each sample*
+![image](https://github.com/CPalmer3200/bsb_test_repo/assets/145576128/8e61fe2c-96c6-4dc2-a035-650395d65655)
+
 
 ### 2.1 Control and treated samples
 
@@ -69,4 +74,4 @@ I am uncertain of sample 3 as a single DSB was found at an AsiSI cut site - howe
 <br>
 
 ### 2.3 Samples 9 and 15 had the greatest percentage of possible AsiSI cut sites
-Of the 71 possible AsiSI break sites, samples 9 and 15 had the greatest percentage (5.63% - n=4) of AsiSI cut sites. This was calculated as part of the results_analysis.py script.
+Of the 71 possible AsiSI break sites, samples 9 and 15 had the greatest percentage (5.63%, n=4) of AsiSI cut sites. This was calculated as part of the results_analysis.py script.
