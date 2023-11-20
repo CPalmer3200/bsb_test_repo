@@ -8,7 +8,7 @@ This repository contains Nextflow and Python scripts designed to process DNA dou
 
 ### 1.1 Nextflow pipeline
 
-The Nextflow pipeline is comprised of three scripts designed to be run in the order: 1. index_pipeline.nf, 2. mapping_pipeline.nf, 3. intersect_pipeline.nf
+The Nextflow pipeline is comprised of three scripts designed to be run in the order: 1. index_pipeline.nf, 2. mapping_pipeline.nf, 3. intersect_pipeline.nf. Below you will find a brief explanation of the scripts and their dependencies:
 
 
 - index_pipeline.nf: This script retrieves the chromosome.fasta file stored in the data directory and indexes it using Burrows-Wheeler Aligner (BWA). Please            install and activate BWA in the current environment before running this script with:
