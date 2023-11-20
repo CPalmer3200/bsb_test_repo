@@ -117,9 +117,9 @@ def plot_data(merged_df):
     plt.figure(figsize=(8, 8)) # Define the plot dimensions
     plt.scatter(merged_df['sample_id'], merged_df['normalised_break_count'], color='black') # Create a scatter plot
 
-    plt.xlabel('Sample') # Set the x axis label
+    plt.xlabel('Sample ID') # Set the x axis label
     plt.xticks(rotation=90, fontsize=7) # Rotate and resize x axis text
-    plt.ylabel('Normalised Break Count') # Set the y axis label
+    plt.ylabel('Normalised double-strand break count') # Set the y axis label
     #plt.ylim(0,5)
 
     plt.savefig('scatter_plot.png') # Save the plot
