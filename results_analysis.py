@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 
 def define_arguments(): # Fetch and format arguments
 
-    if len(sys.argv) != 4: # Check that 3 arguments are given
-        print("This script requires 3 inputs: path/to/script, path/to/trimmed/reads, path/to/intersected/reads, path/to/AsiSI/cut/sites")
+    if len(sys.argv) != 4: # Check that 4 arguments are given
+        print("This script requires 4 inputs: path/to/script, path/to/trimmed/reads, path/to/intersected/reads, path/to/AsiSI/cut/sites")
         sys.exit(1) # Exit process and raise a SystemExit exception
     
     trimmed_input_dir = sys.argv[1]
