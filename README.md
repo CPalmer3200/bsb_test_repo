@@ -82,3 +82,21 @@ I am uncertain of sample 3 as a single DSB was found at an AsiSI cut site - howe
 
 ### 2.3 Samples 9 and 15 had the greatest percentage of possible AsiSI cut sites
 Of the 71 possible AsiSI break sites, samples 9 and 15 had the greatest percentage (5.63%, n=4) of AsiSI cut sites. This was calculated as part of the results_analysis.py script.
+
+
+## 3. Mapping of questions to answers
+
+- This repository was created in response to the Broken String Biosciences Bioinformatician pre-interview coding test.
+
+- Step 1 is covered by section 1.1 of this repository
+
+- Figure 1 illustrates the plot that step 2.4 instructs to be generated
+
+- Table 1 shows the output of the python data analysis that is requested in step 2
+
+- Question 1 is answered in section 2.1 of this repository
+
+- Questions 2 and 3 are answered in section 2.2 of this repository
+
+- Question 4 is answered in section 2.3 of this repository
+
