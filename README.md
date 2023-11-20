@@ -4,7 +4,7 @@
 
 ## 1. Repository architecture
 
-This repository contains Nextflow and Python scripts designed to process and analyse samples containing DNA double-strand breaks (DSBs). These scripts are designed to be run on a Linux-based/WSL system through bash scripts. 
+This repository contains Nextflow and Python scripts designed to process and analyse samples containing DNA double-strand breaks (DSBs). These scripts are designed to be run on a Linux-based/WSL system through bash scripts. These scripts were constructed with Nextflow version 23.10.0.5889 and Python version 3.12.0. Please make sure these are installed prior to running the scripts. 
 
 ### 1.1 Nextflow pipeline
 
