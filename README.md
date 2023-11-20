@@ -58,10 +58,15 @@ python3 path/to/script path/to/trimmed/reads path/to/intersected/reads path/to/A
 
 Figure 1: *Normalised break count of Samples 1-16*
 
-2.1 The results from the Python data analysis strongly indicate that samples 1, 2, 4, 5, 6, 7 and 8 were untreated DIvA controls cells as no evidence of DSBs at AsiSI cut sites were found. Samples 9-16 were likely DIvA cells that have been treated with 4-hydroxytamoxifen (4OHT) as they all exhibited DSBs at AsiSI cut sites.
+### 2.1 Control and treated samples
+
+The results from the Python data analysis strongly indicate that samples 1, 2, 4, 5, 6, 7 and 8 were untreated DIvA controls cells as no evidence of DSBs at AsiSI cut sites were found. Samples 9-16 were likely DIvA cells that have been treated with 4-hydroxytamoxifen (4OHT) as they all exhibited DSBs at AsiSI cut sites.
 <br>
 
-2.2 I am uncertain of sample 3 as a single DSB was found at an AsiSI cut site - however, this DSB may have already been present in the sample and may not have been induced by treatment with 4OHT.
+### 2.2 The identity of sample 3 is uncertain
+
+I am uncertain of sample 3 as a single DSB was found at an AsiSI cut site - however, this DSB may have already been present in the sample and may not have been induced by treatment with 4OHT.
 <br>
 
-2.3 Of the 71 possible AsiSI break sites, samples 9 and 15 had the greatest percentage (5.63% - n=4) of AsiSI cut sites. This was calculated as part of the results_analysis.py script.
+### 2.3 Samples 9 and 15 had the greatest percentage of possible AsiSI cut sites
+Of the 71 possible AsiSI break sites, samples 9 and 15 had the greatest percentage (5.63% - n=4) of AsiSI cut sites. This was calculated as part of the results_analysis.py script.
