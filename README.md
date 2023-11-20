@@ -26,3 +26,13 @@ nextflow run mapping_pipeline.nf
 
 > [!WARNING]
 > This version of mapping_pipeline.nf does not use relative file paths due to incompabilities with external programs. Please modify the 'mapping_to_bam' parameters and trim_reads script (3 lines total) BEFORE running the script.
+
+
+- intersect_pipeline.nf: This script uses bedtools to find the intersections between the trimmed .bed files and the AsiSI cut sites in the data folder. Please install and activate bedtools before running this script with:
+
+```
+nextflow run intersect_pipeline.nf
+```
+
+> [!WARNING]
+> This version of intersect_pipeline.nf does not use relative file paths due to incompabilities with external programs. Please modify the 'find_intersections' parameters (2 lines total) BEFORE running the script.
