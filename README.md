@@ -24,5 +24,5 @@ nextflow run index_pipeline.nf
 nextflow run mapping_pipeline.nf
 ```
 
-[!WARNING]
+!WARNING
 This version of mapping_pipeline.nf does not use relative file paths due to incompabilities with external programs. Please modify the 'mapping_to_bam' parameters and trim_reads script (3 lines total) BEFORE running the script.
