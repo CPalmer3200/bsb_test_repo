@@ -11,7 +11,7 @@ This repository contains Nextflow and Python scripts designed to process and ana
 The Nextflow pipeline is comprised of three scripts designed to be run in the following order: 1. index_pipeline.nf, 2. mapping_pipeline.nf, 3. intersect_pipeline.nf. Below you will find a brief explanation of the scripts and their dependencies:
 
 
-- index_pipeline.nf: This script retrieves the chromosome.fasta file stored in the data directory and indexes it using Burrows-Wheeler Aligner (BWA). Please            install and activate BWA in the current environment before running this script with:
+- **index_pipeline.nf:** This script retrieves the chromosome.fasta file stored in the data directory and indexes it using Burrows-Wheeler Aligner (BWA). Please            install and activate BWA in the current environment before running this script with:
 
 ```
 nextflow run index_pipeline.nf
@@ -21,7 +21,7 @@ nextflow run index_pipeline.nf
 > This script uses relative file paths so no internal modification is needed
 <br>
 
-- mapping_pipeline.nf: This script is designed to map the sample.fastq.gz files to the indexed chromosome with bwa mem and convert these into .bam files with           samtools. The resulting .bam files will then be converted to .bed files using bedtools and the reads will be trimmed to include just the break sites by               accessing the trim_reads.py script in this repo. Please install and activate BWA, samtools, Python3 and bedtools before running this script with:
+- **mapping_pipeline.nf:** This script is designed to map the sample.fastq.gz files to the indexed chromosome with bwa mem and convert these into .bam files with           samtools. The resulting .bam files will then be converted to .bed files using bedtools and the reads will be trimmed to include just the break sites by               accessing the trim_reads.py script in this repo. Please install and activate BWA, samtools, Python3 and bedtools before running this script with:
 
 ```
 nextflow run mapping_pipeline.nf
@@ -32,7 +32,7 @@ nextflow run mapping_pipeline.nf
 > This version of mapping_pipeline.nf does not use relative file paths due to incompatibilities with external programs. Please modify the 'mapping_to_bam' parameters and trim_reads script (3 lines total) BEFORE running the script.
 <br>
 
-- intersect_pipeline.nf: This script uses bedtools to find the intersections between the trimmed .bed files and the AsiSI cut sites in the data folder. Please install and activate bedtools before running this script with:
+- **intersect_pipeline.nf:** This script uses bedtools to find the intersections between the trimmed .bed files and the AsiSI cut sites in the data folder. Please install and activate bedtools before running this script with:
 
 ```
 nextflow run intersect_pipeline.nf
